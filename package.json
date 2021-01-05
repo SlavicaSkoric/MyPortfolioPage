@@ -1,0 +1,21 @@
+{
+  "name": "my-portfolio-page",
+  "version": "1.0.0",
+  "description": "This is the directory for My Portfolio Page",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://SlavicaSkoric@bitbucket.org/SlavicaSkoric/my-portfolio-page.git"
+  },
+  "author": "Slavica Skorić",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/SlavicaSkoric/my-portfolio-page#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
