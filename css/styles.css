@@ -1,0 +1,28 @@
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.navbar-dark {
+    background-color: #448b9e;
+}
+
+.jumbotron {
+    margin: 0px auto;
+    padding: 150px 30px;
+    background-color: #78cce3;
+    color: #f0f0f0;
+}
+
+.footer {
+    background-color: #78cce3;
+    color: #f0f0f0;
+    padding: 20px 0px;
+}
