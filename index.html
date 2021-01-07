@@ -23,10 +23,10 @@
             <a class="navbar-brand" href="#"><span class="fas fa-laptop fa-lg"></span> Hello World!</a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav navbar-right">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Projects</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#home"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects"><span class="fa fa-list fa-lg"></span> Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -35,7 +35,7 @@
         </div>
     </nav>
 
-    <header class="jumbotron">
+    <header class="jumbotron" id="home">
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
@@ -51,12 +51,12 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="container" id="projects">
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Captioning the World</h3>
                 <p>A website I created as my travel photo diary, using HTML5, CSS3, Bootstrap and JavaScript. </p>
-                <p><span ></span></p>
+                <p><a href="https://slavicaskoric.github.io/CaptioningTheWorld/index.html" title="Captioning The World" target="_blank"><span class="fas fa-terminal fa-md"> go to project</span></a></p>
             </div>
             <div class="col col-sm order-sm-first col-md">
                 <a href="https://slavicaskoric.github.io/CaptioningTheWorld/index.html" title="Captioning the World" target="_blank"><img src="img/CaptioningTheWorld.jpg" class="img-fluid"></a>
@@ -66,50 +66,55 @@
             <div class="col-12 col-sm-4 order-sm-first col-md-3">
                 <h3>Battleship Game</h3>
                 <p>Battleship sinking game from "Head First JavaScript Programming" created using HTML5, CSS3 and JavaScript. </p>
+                <p><a href="https://slavicaskoric.github.io/Battleship/" title="Battleship Game" target="_blank"><span class="fas fa-terminal fa-md"> go to project</span></a></p>
             </div>
             <div class="col col-sm order-sm-last col-md">
                 <a href="https://slavicaskoric.github.io/Battleship/" title="Battleship Game" target="_blank"><img src="img/BattleshipGame.jpg" class="img-fluid"></a>
             </div>
         </div>
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                <h3>To Do List Web App</h3>
+                <p>Recreated from a <a href="https://www.youtube.com/watch?v=y51Cv4wnsPw" title="To Do List Web App Tutorial" target="_blank">tutorial</a> using HTML5, Sass and JavaScript. </p>
+                <p><a href="https://slavicaskoric.github.io/To-Do-List-Web-App/index.html" title="To Do List Web App" target="_blank"><span class="fas fa-terminal fa-md"> go to project</span></a></p>
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <a href="https://slavicaskoric.github.io/To-Do-List-Web-App/index.html" title="To Do List Web App" target="_blank"><img src="img/ToDoListWebApp.jpg" class="img-fluid"></a>
+            </div>
+        </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="row">             
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="./aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="./contactus.html">Contact</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#">About</a></li>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
+                    <h5>Reach Me At:</h5>
                     <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
-		              <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
-		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
+		                <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:skoric.slavica.hr@gmail.com">skoric.slavica.hr@gmail.com</a>
 		           </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+                        <a href="mailto:skoric.slavica.hr@gmail.com" title="Email" target="_blank"><span class="fas fa-envelope fa-3x"></span></a>                       
+                        <a href="https://www.linkedin.com/in/slavica-skori%C4%87-6610759a/" title="LinkedIn" target="_blank"><span class="fab fa-linkedin-in fa-3x"></span></a>
+                        <a href="https://github.com/SlavicaSkoric" title="GitHub" target="_blank"><span class="fab fa-github fa-3x"></span></a>
+                        <a href="https://bitbucket.org/SlavicaSkoric/" title="Bitbucket" target="_blank"><span class="fab fa-bitbucket fa-3x"></span></a>
+                        <a href="https://codepen.io/slavicaskoric" title="CodePen" target="_blank"><span class="fab fa-codepen fa-3x"></span></a>
+                        <a href="https://www.freecodecamp.org/slavicaskoric" title="freeCodeCamp" target="_blank"><span class="fab fa-free-code-camp fa-3x"></span></a>
                     </div>
                 </div>
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <p>© Copyright 2021 Slavica Skorić</p>
                 </div>
            </div>
         </div>
